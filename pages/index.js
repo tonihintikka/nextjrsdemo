@@ -70,6 +70,8 @@ export default function Home() {
                         src="//cdn1.readspeaker.com/script/7474/webReader/webReader.js?pids=wr"
                         type="text/javascript"
                     ></script> }
+<script dangerouslySetInnerHTML={{ __html: `ReadSpeaker.init()` }} />
+                    
     </div>
   )
 }
