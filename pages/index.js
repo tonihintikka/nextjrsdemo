@@ -66,10 +66,7 @@ export default function Home() {
           </span>
         </a>
       </footer>
-      {<script
-                        src="//cdn1.readspeaker.com/script/7474/webReader/webReader.js?pids=wr"
-                        type="text/javascript"
-                    ></script> }
+      { }
 <script dangerouslySetInnerHTML={{ __html: `ReadSpeaker.init()` }} />
                     
     </div>
